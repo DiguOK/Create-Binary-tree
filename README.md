@@ -54,3 +54,23 @@ TreeNode* CreateTree(vector<string> list, int start) {
 [105.从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 [654.最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)
+
+题外话：二叉搜索树常用技巧： 中序遍历 结合 cur和pre
+```
+//98.验证二叉搜索树
+class Solution {
+public:
+    long long maxVal = LONG_MIN; // 因为后台测试数据中有int最小值
+    bool isValidBST(TreeNode* root) {
+        if (root == NULL) return true;
+
+        bool left = isValidBST(root->left);
+        // 中序遍历，验证遍历的元素是不是从小到大
+        if (maxVal < root->val) maxVal = root->val;
+        else return false;
+        bool right = isValidBST(root->right);
+
+        return left && right;
+    }
+};
+```
