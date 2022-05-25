@@ -49,6 +49,8 @@ TreeNode* CreateTree(vector<string> list, int start) {
 # 2、数组表示完全二叉树——堆
 
 # 3、通过寻找根节点来确定树的结构
-106.从中序与后序遍历序列构造二叉树
-105.从前序与中序遍历序列构造二叉树
-654.最大二叉树
+[106.从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+
+[105.从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+[654.最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)
