@@ -55,7 +55,7 @@ TreeNode* CreateTree(vector<string> list, int start) {
 
 [654.最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)
 
-题外话：二叉搜索树常用技巧： 中序遍历 结合 cur和pre
+题外话：<br>二叉搜索树常用技巧： 中序遍历 结合 cur和pre
 ```
 //98.验证二叉搜索树
 class Solution {
