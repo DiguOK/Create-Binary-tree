@@ -46,3 +46,6 @@ TreeNode* CreateTree(vector<string> list, int start) {
 <br>将创建的TreeNode进行层序遍历展示：
 <br>![image](https://user-images.githubusercontent.com/106227496/170207487-90941672-e453-456b-ab67-8e9a10d96e22.png)
 
+# 2、数组表示完全二叉树——堆
+
+# 3、通过寻找根节点来确定树的结构
