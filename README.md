@@ -20,7 +20,7 @@ struct TreeNode {
 <br>转化代码如下：<br>
 ```
 TreeNode* CreateTree(vector<string> list, int start) {
-
+      //可以选择为任意标识符
     if (list[start] == "NULL") {
         return NULL;
     }
